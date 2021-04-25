@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<link href="https://fonts.googleapis.com/css2?family=Mukta:wght@500;600&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+
+
+<title>Google</title>
+
+    <style>
+        :root{
+            background-color: aliceblue;
+            font-family: 'Londrina Solid', cursive;
+
+        }
+        .body{
+            color: red;
+        }
+
+        .topmargin{
+            margin-top: 200px;
+        }
+        .center{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 500px;
+            border-style: groove;
+            border-width: 1rem;
+        }
+
+        .button{
+            display: grid;
+        }
+
+        @media (max-width: 800px){
+            .center{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 100px;
+            border-style: solid;
+            border-width: 1rem;
+            }
+        }
+
+    </style>
+
+    <body>
+        <img src="https://download.logo.wine/logo/Google/Google-Logo.wine.png" class="center topmargin">
+        <form action="button">
+            <input type="password" placeholder="Enter search" class="center">
+        </form>
+
+        <button type="submit">Search</button>
+        <button type="submit">Try your luck</button>
+
+    </body>
